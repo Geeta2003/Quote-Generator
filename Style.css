@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Urbanist:wght@600&display=swap');
+
+ 
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Agbalumo' ; 
+
+    
+}
+
+.container{
+    width: 800px;
+    border: 2px solid black;
+    border-radius: 20px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform:translate(-50%,-50%);
+   padding: 40px;
+   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5);
+   
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+  
+
+}
+h1::after{
+    content: '';
+    width: 150px;
+    text-align: center;
+    background-color:rgb(23, 124, 229);
+    height: 5px;
+    border-radius: 3px;
+    position: absolute;
+    bottom: -10px;
+    left: 350px;
+    transform: translateX(-50%);
+
+}
+.quote{
+    text-align: center;
+    margin-top: 40px;
+    font-size:37px ;
+ 
+}
+p{
+    position: relative;
+    left: 500px;
+    margin-top: 20px;
+    padding: 10px;
+}
+p::after{
+    content: '';
+    width: 20px;
+    background-color:rgb(23, 124, 229);
+    height: 5px;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 16px;
+    left: -15px;
+
+    transform: translateX(-50%);
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+    
+}
+button{
+    width: 250px;
+    height: 60px;
+    border: transparent;
+    border-radius: 30px;
+    background-color:rgb(23, 124, 229); 
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    right: 20px;
+  
+    
+}
+.tweet{
+   
+    background-color: #ffff;
+    color: black;
+    border: 1px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
